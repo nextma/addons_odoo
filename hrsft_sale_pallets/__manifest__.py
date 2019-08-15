@@ -27,7 +27,8 @@
     'category': 'base',
     'website': 'http://www.horiyasoft.com',
     'summary': 'Calculates pallets for a sale order',
-    'description': """ Ajout des pallettes automatique pendant la vente
+    'description': """ Ajout des pallettes automatique pendant la vente -
+    Added automatic pallets during the sale
 
     """,
     'depends': ['sale','delivery' ],
