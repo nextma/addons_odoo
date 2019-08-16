@@ -22,7 +22,7 @@
 {
     'name': 'Sale Calc Pallets',
     'version': '12.0.1.0.5',
-    'author': 'Vertel AB,HORIYASOFT',
+    'author': 'Vertel AB,HORIYASOFT,LIBERTYSOFT',
     'license': 'AGPL-3',
     'category': 'base',
     'website': 'http://www.horiyasoft.com',
