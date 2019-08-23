@@ -42,9 +42,9 @@
     'license': 'AGPL-3',
     'data': [
         'wizard/account_winbooks_export_view.xml',
-        'views/account_winbooks_export_menu.xml',
-    'images': ['static/description/banner.png'], 
+        'views/account_winbooks_export_menu.xml', 
     ],
+    'images': ['static/description/banner.png'], 
     'installable': True,
     'active': False,
 }
