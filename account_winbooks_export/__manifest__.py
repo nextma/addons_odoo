@@ -38,7 +38,7 @@
     You can filter by period
 
     """,
-    'website': 'http://www.eta123.be',
+    'website': 'http://www.eta123.be, http://www.libertysoft.be',
     'license': 'AGPL-3',
     'data': [
         'wizard/account_winbooks_export_view.xml',
