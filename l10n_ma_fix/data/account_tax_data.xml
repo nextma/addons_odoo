@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- account chart  -->
+    <record id="l10n_ma.l10n_kzc_temp_chart" model="account.chart.template">
+        <field name="property_account_receivable_id" ref="l10n_ma.pcg_34211"/>
+        <field name="property_account_payable_id" ref="l10n_ma.pcg_4411"/>
+        <field name="property_account_expense_categ_id" ref="l10n_ma.pcg_6111"/>
+    </record>
+  <!-- Account Tax Template -->
+    <record model="account.tax.template" id="l10n_ma.tva_vt20">
+        <field name="sequence">0</field>
+    </record>
+    <record model="account.tax.template" id="l10n_ma.tva_ac20">
+        <field name="sequence">0</field>
+    </record>
+</odoo>
