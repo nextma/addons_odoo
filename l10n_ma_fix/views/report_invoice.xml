@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_invoice_document" inherit_id="account.report_invoice_document">
+            <div class="clearfix" position="after">
+                <p>
+                    <strong>Arrêtée la présente facture à la somme de: <span t-esc="o.currency_id.amount_to_text(o.amount_total)"/> TTC</strong>
+                </p>
+            </div>
+            <div t-if="o.partner_id.vat" position="replace">
+                <div t-if="o.partner_id.vat" class="mt16"><t t-esc="o.partner_id.country_id.vat_label or o.company_id.country_id.vat_label or 'Tax ID'"/>: <span t-field="o.partner_id.vat"/></div>
+            </div>
+        </template>
+    </data>
+</odoo>
