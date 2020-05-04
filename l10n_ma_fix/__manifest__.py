@@ -15,6 +15,7 @@
 
     'depends': ['l10n_ma'],
     'auto_install': False,
+    'images': ['static/description/banner.png'],
 
     'data': [
         'data/account_tax_data.xml',
