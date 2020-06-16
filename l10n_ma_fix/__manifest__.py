@@ -8,7 +8,7 @@
 
     'author': "BADEP, HORIYASOFT, PRAGMATIC SYSTEM",
     'license': 'AGPL-3',
-    'website': "https://badep.ma, http://www.horiyasoft.ma, http://www.pragmatic-system.ma",
+    'website': "https://badep.ma, http://www.horiyasoft.com, http://www.pragmatic-system.ma",
 
     'category': 'Technical',
     'version': '0.1',
